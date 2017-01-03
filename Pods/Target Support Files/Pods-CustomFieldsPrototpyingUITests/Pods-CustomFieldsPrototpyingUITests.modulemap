@@ -1,0 +1,6 @@
+framework module Pods_CustomFieldsPrototpyingUITests {
+  umbrella header "Pods-CustomFieldsPrototpyingUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
