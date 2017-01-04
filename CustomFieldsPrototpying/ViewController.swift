@@ -42,6 +42,8 @@ class ViewController: UIViewController, ASTableDelegate, ASTableDataSource {
 			return SingleLineTextNode(heading: "Full Name", value: "Varun Shoor")
 		case 1:
 			return MultiLineTextNode(heading: "Description", value: "Sin=djhasfbjsdhafjsadhbfjsdafhbsajdhfbsjadhfbjshdhjbfdsbhjfsdabjhasdfbhjadsfjhjbhdfsabjhdsfbhjdsafbhjdsfahjbdsafhjsdfahjbhjbsdfhjdsfahjbj")
+		case 4:
+			return SwitchCustomField(heading: "Is it on right now?", state: true)
 		case 6:
 			return DecimalCustomTextField(heading: "Price", value: "21.0")
 		default:

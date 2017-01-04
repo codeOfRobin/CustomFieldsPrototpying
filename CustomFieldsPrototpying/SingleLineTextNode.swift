@@ -9,7 +9,7 @@
 import AsyncDisplayKit
 
 class SingleLineTextNode: ASCellNode, UITextFieldDelegate {
-	var textField = ASDisplayNode(viewBlock: { () -> UIView in
+	let textField = ASDisplayNode(viewBlock: { () -> UIView in
 		let textFieldView = UITextField()
 		textFieldView.placeholder = "-"
 		textFieldView.text = "Varun Shoor"

@@ -14,6 +14,8 @@
 		42D757881E1BCB4800C456FE /* DecimalCustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D757871E1BCB4800C456FE /* DecimalCustomTextField.swift */; };
 		42D7578A1E1BCBCF00C456FE /* NumberCustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D757891E1BCBCF00C456FE /* NumberCustomTextField.swift */; };
 		42D7578E1E1C20E700C456FE /* RegExCustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D7578D1E1C20E700C456FE /* RegExCustomTextField.swift */; };
+		42D757921E1CEAF000C456FE /* SwitchCustomField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D757911E1CEAF000C456FE /* SwitchCustomField.swift */; };
+		42D757941E1CF2C700C456FE /* HeaderTextNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D757931E1CF2C700C456FE /* HeaderTextNode.swift */; };
 		42DF5FD41E1A5E7A0083CEFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DF5FD31E1A5E7A0083CEFC /* AppDelegate.swift */; };
 		42DF5FD61E1A5E7A0083CEFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DF5FD51E1A5E7A0083CEFC /* ViewController.swift */; };
 		42DF5FD91E1A5E7A0083CEFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42DF5FD71E1A5E7A0083CEFC /* Main.storyboard */; };
@@ -52,6 +54,8 @@
 		42D757871E1BCB4800C456FE /* DecimalCustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecimalCustomTextField.swift; sourceTree = "<group>"; };
 		42D757891E1BCBCF00C456FE /* NumberCustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberCustomTextField.swift; sourceTree = "<group>"; };
 		42D7578D1E1C20E700C456FE /* RegExCustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegExCustomTextField.swift; sourceTree = "<group>"; };
+		42D757911E1CEAF000C456FE /* SwitchCustomField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchCustomField.swift; sourceTree = "<group>"; };
+		42D757931E1CF2C700C456FE /* HeaderTextNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderTextNode.swift; sourceTree = "<group>"; };
 		42DF5FD01E1A5E7A0083CEFC /* CustomFieldsPrototpying.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomFieldsPrototpying.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42DF5FD31E1A5E7A0083CEFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42DF5FD51E1A5E7A0083CEFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -145,6 +149,8 @@
 				42D757891E1BCBCF00C456FE /* NumberCustomTextField.swift */,
 				421CC2FE1E1B7C8E00E5C99D /* CustomTextField.swift */,
 				421CC3001E1B7E6100E5C99D /* SingleLineTextNode.swift */,
+				42D757911E1CEAF000C456FE /* SwitchCustomField.swift */,
+				42D757931E1CF2C700C456FE /* HeaderTextNode.swift */,
 				421CC3041E1BA10500E5C99D /* MultiLineTextNode.swift */,
 				421CC3021E1B858F00E5C99D /* Styles.swift */,
 				42DF5FD71E1A5E7A0083CEFC /* Main.storyboard */,
@@ -471,12 +477,14 @@
 				421CC3011E1B7E6100E5C99D /* SingleLineTextNode.swift in Sources */,
 				42D757881E1BCB4800C456FE /* DecimalCustomTextField.swift in Sources */,
 				421CC3031E1B858F00E5C99D /* Styles.swift in Sources */,
+				42D757941E1CF2C700C456FE /* HeaderTextNode.swift in Sources */,
 				42D7578A1E1BCBCF00C456FE /* NumberCustomTextField.swift in Sources */,
 				42DF5FD61E1A5E7A0083CEFC /* ViewController.swift in Sources */,
 				42DF5FD41E1A5E7A0083CEFC /* AppDelegate.swift in Sources */,
 				421CC3051E1BA10500E5C99D /* MultiLineTextNode.swift in Sources */,
 				42D7578E1E1C20E700C456FE /* RegExCustomTextField.swift in Sources */,
 				421CC2FF1E1B7C8E00E5C99D /* CustomTextField.swift in Sources */,
+				42D757921E1CEAF000C456FE /* SwitchCustomField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

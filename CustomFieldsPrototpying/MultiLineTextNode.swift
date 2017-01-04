@@ -34,7 +34,7 @@ class MultiLineTextNode: ASCellNode, ASEditableTextNodeDelegate {
 	
 	override func layoutSpecThatFits(_ constrainedSize: ASSizeRange) -> ASLayoutSpec {
 		let stack = ASStackLayoutSpec(direction: .vertical, spacing: 9.0, justifyContent: .center, alignItems: .stretch, children: [headingText, textField])
-		return ASInsetLayoutSpec(insets: UIEdgeInsetsMake(9, 9, 9, 9), child: stack)
+		return ASInsetLayoutSpec(insets: UIEdgeInsetsMake(9, 18, 9, 9), child: stack)
 	}
 	
 	func editableTextNodeDidUpdateText(_ editableTextNode: ASEditableTextNode) {
