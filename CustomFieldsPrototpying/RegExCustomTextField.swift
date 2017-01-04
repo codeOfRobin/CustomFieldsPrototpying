@@ -10,15 +10,15 @@ import UIKit
 
 class RegExCustomTextField: SingleLineTextNode, CustomTextField {
 	
-	let regex: NSRegularExpression
+	let regexPattern: String
 	
-	init(regex: NSRegularExpression, heading: String, value: String) {
-		self.regex = regex
+	init(regexPattern: String, heading: String, value: String) {
+		self.regexPattern = regexPattern
 		super.init(heading: heading, value: value)
 	}
 	
 	func validate(text: String) -> Bool {
-		if let _ = Float(text) {
+		if let _ = text.range(of: regexPattern, options: .regularExpression, range: Range<String.Index>(uncheckedBounds: (lower: text.startIndex, upper: text.endIndex)), locale: Locale.current) {
 			return true
 		} else {
 			return false
